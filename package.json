@@ -1,6 +1,6 @@
 {
   "name": "clox-backup",
-  "version": "3.3.3",
+  "version": "1.0.0",
   "description": "A complete framework to facilitate server backup using discord.js v14",
   "main": "lib/index.js",
   "files": [

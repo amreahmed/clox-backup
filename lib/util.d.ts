@@ -9,7 +9,7 @@ export declare function fetchChannelPermissions(channel: TextChannel | VoiceChan
  */
 export declare function fetchVoiceChannelData(channel: VoiceChannel): Promise<VoiceChannelData>;
 
-export declare function fetchStageChannelData(channel: StageChannel): Promise<StageChannelData>;
+export declare function fetchStageChannelData(channel: StageChannel): Promise<VoiceChannelData>;
 
 export declare function fetchChannelMessages(channel: TextChannel | NewsChannel | ThreadChannel, options: CreateOptions): Promise<MessageData[]>;
 /**
